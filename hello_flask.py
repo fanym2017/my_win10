@@ -1,3 +1,4 @@
+#这是一个简单的web
 from flask import Flask
 from flask import render_template
 app = Flask(__name__)
