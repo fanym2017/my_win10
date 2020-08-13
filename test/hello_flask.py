@@ -15,5 +15,7 @@ def hello(name):
     print(name)
     return render_template('index.html', name=name)
 
-app.run()
+app.run(host="106.53.93.162",
+        port=8000,
+        debug=True)
 
