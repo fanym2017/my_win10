@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import *
+from . import views
 
 urlpatterns = [
-    # 定义路由
-    path('login.html', loginView, name='login'),
+    # 定义首页的路由
+    path('', views.index, name='index'),
 ]
