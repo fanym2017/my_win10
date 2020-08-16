@@ -1,0 +1,9 @@
+[uwsgi]
+socket = 106.53.93.162:8080
+chdir = /home/foobar/myproject/
+wsgi-file = D:\python\my_win10\MyDjango\MyDjango\settings.py
+processes = 4
+threads = 2
+stats = 106.53.93.162:9191
+
+uwsgi --socket 0:3031 --/mytest/my_win10/MyDjango --wsgi-file /mytest/my_win10/MyDjango/MyDjango/wsgi.py --master --processes 4 --threads 2 --stats 0:9191
